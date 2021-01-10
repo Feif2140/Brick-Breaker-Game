@@ -1,0 +1,12 @@
+make jFrame
+
+set color
+
+create 2d array for blocks
+    set all to positive (visible)
+
+if (ball intersects platform) ball y = -y
+if (ball intersects block) {
+    block visible = false
+
+}
